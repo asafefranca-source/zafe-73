@@ -5,16 +5,16 @@ inteiro numero
 
 escreva ("escolha um numero   ")
 leia (numero )
- escreva("/  ")   
+ escreva("\n") 
 
 
 escreva("o duplo desse nuemero é  ")
 escreva(numero+numero)
-escreva("/   ")
+escreva("\n")
 
 escreva ("o triplo desse numero é  ")
 escreva(numero+numero+numero)
-
+escreva("\n")
 
 
 
