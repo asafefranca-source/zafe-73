@@ -8,14 +8,14 @@ inteiro vb
 
 escreva(" de um valor a copo A  ")
 leia(a)
-
+escreva("\n")
 escreva("agora de um valor ao copo B  ")
 leia(b)
-  
+  escreva("\n")
 
  escreva("o valor do copo A é  ")
 escreva(a)
- 
+ escreva("\n")
  escreva(" e o do B é  ")
 escreva(b)
 
@@ -31,10 +31,10 @@ a = vb
 b = va
 
 escreva(" fazendo conversao  ")
-
+escreva ("\n")
 escreva(" o novo valor do copo A é"  )
 escreva (a)
-
+escreva("\n")
 escreva(" o novo valor do copo B é  ")
 escreva(b)
 
