@@ -8,15 +8,16 @@ inteiro azulejos
 
 escreva(" sera quantos metros tem essa parede? ")
 leia (altura)
-
+escreva("\n")
 escreva(" e sera quantos metros de lagura tem essa parede  ")
 leia (largura)
-
+escreva("\n")
 
 metros= altura * largura 
 azulejos = metros * 12
 
 escreva("voce vai precisar de ")
+escreveu("\n")
 escreva(azulejos)
 escreva("para deixar a parede bonita")
 
