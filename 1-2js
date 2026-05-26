@@ -1,0 +1,26 @@
+import promptSync from 'prompt-sync'
+const prompt = promptSync()
+
+
+let idade  = prompt ("qual é a sua idade?:  ")
+let vip  =  prompt ("voce tem o vip?:  ") === "true"
+let ingresso = prompt ("voce tem ingesso?:  ")  ==="true"
+  
+    
+if (vip == true){
+    console.log ("acesso liberado")
+}
+
+else {
+    
+if ((idade >= 18) && (ingresso == true)) {
+    console.log ("acesso liberado")
+}
+
+else {
+    console.log ("acesso negado ")
+}
+}
+
+
+
